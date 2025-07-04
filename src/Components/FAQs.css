@@ -1,0 +1,22 @@
+.faqs-container {
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #d36b9a;
+  background-color: #fff0f6;
+}
+
+.accordion-body {
+  font-size: 0.95rem;
+  color: #555;
+}

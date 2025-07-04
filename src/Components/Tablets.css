@@ -1,0 +1,87 @@
+/* General styling for the container */
+
+/* Heading Style */
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* List Style */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* List Items */
+li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Titles (Supplement Name) */
+h3 {
+  font-size: 1.6em;
+  color: #16a085;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Text (Benefits, Dosage, etc.) */
+p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+p strong {
+  color: #16a085;
+  font-weight: 600;
+}
+
+/* Highlighting the "Recommended Dosage" */
+p:last-child {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Footer Style for the Doctor's Recommendation */
+footer {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #95a5a6;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  li {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,104 @@
+/* WelcomePage.css */
+
+.welcome-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to bottom, #fff7f9, #fdeff4);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-main {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.welcome-text h1 {
+  
+  font-size: 2.5rem;
+  color: #e05a8d;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  color: #b83265;
+  font-weight: bold;
+}
+
+.welcome-text p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.welcome-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+}
+
+.welcome-text li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #5c5c5c;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.welcome-text li::before {
+  content: "✨";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.welcome-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.welcome-buttons button {
+  background-color: #ff79a0;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-buttons button:hover {
+  background-color: #e05a8d;
+}
+
+.welcome-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.welcome-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

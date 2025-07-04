@@ -1,0 +1,112 @@
+/* === Color Variables (Soft Pastel Care Palette) === */
+:root {
+  --primary: #FFC0CB;        /* Blush Pink */
+  --secondary: #E6E6FA;      /* Soft Lavender */
+  --accent: #FFDAB9;         /* Warm Peach */
+  --background: #F5F5F5;     /* White Smoke */
+  --text-primary: #333333;   /* Charcoal */
+}
+
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure html and body take full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Container flex layout */
+.app-container {
+  display: flex;
+  height: 100vh; /* Viewport height */
+}
+
+/* Sidebar styling */
+
+
+
+/* Main content fills the rest */
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+
+
+/* === Header === */
+.header {
+  background-color: var(--primary);
+  color: var(--text-primary);
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+
+
+/* === Sidebar Navigation === */
+.nav-pills {
+  width: 100%;
+  padding-left: 0;
+}
+
+.nav-pills li {
+  width: 100%;
+  padding: 0;
+}
+
+.nav-pills li a {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.nav-pills li a:hover {
+  background-color: var(--accent);
+  color: white;
+}
+
+.nav-pills li a.info {
+  background-color: var(--primary);
+  font-weight: bold;
+  color: white;
+}
+
+/* === Content Area === */
+.content {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  overflow-y: auto;
+}
+
+/* === Custom Buttons === */
+.btn-custom {
+  background-color: var(--accent);
+  color: var(--text-primary);
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: var(--primary);
+  color: white;
+}

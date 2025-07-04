@@ -1,0 +1,105 @@
+.rulebook-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Banner Image */
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Text below banner */
+.banner-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0 40px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Main Heading */
+.rulebook-container h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Rules Section */
+.rules-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dos-section, .donts-section {
+  flex: 1 1 45%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.dos-section:hover, .donts-section:hover {
+  transform: translateY(-5px);
+}
+
+.dos-section h2, .donts-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4caf50;
+}
+
+.category-section {
+  margin-bottom: 20px;
+}
+
+.category-section h3 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+  font-size: 1.05rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .rules-section {
+    flex-direction: column;
+  }
+
+  .dos-section, .donts-section {
+    flex: 1 1 100%;
+  }
+
+  .rulebook-container h1 {
+    font-size: 2rem;
+  }
+
+  .banner-title {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+

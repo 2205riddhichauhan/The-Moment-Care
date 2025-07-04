@@ -1,0 +1,62 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff8f9;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.about-us-title {
+  font-size: 3rem;
+  color: #e05a8d;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.about-us-content {
+  max-width: 950px;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+}
+
+.brand-name {
+  color: #c2185b;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.about-us-intro {
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  color: #444;
+}
+
+.about-us-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading {
+  font-size: 1.7rem;
+  color: #b83265;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-list,
+.values-list {
+  margin-left: 1rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.feature-list li,
+.values-list li {
+  margin-bottom: 0.8rem;
+}

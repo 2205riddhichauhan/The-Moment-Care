@@ -1,0 +1,40 @@
+.pregnancy-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.guidance-section {
+  margin-bottom: 2rem;
+}
+
+.guidance-section h2 {
+  font-size: 1.25rem;
+  color: #c2185b;
+  margin-bottom: 0.5rem;
+}
+
+.guidance-section ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.warning {
+  background-color: #fff3cd;
+  border-left: 6px solid #ffc107;
+  padding: 1rem;
+  border-radius: 8px;
+}
